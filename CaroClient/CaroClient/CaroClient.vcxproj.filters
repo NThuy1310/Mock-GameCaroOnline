@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\View">
+      <UniqueIdentifier>{372b4bc8-0da0-46f3-a1b3-28bb8592ec2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{a0f1f2e2-ea4c-4f7b-81c6-617b943bbb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Invalidation">
+      <UniqueIdentifier>{0a033060-4adb-4408-ab30-f43cecdc1598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Invalidation">
+      <UniqueIdentifier>{d579b665-7653-4a8f-9854-77acf9a988eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controller">
+      <UniqueIdentifier>{997745c2-6e47-4727-81cf-b973e8ca3352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{8a9d1a98-f2a9-440f-b9e4-6a2c6bc68046}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConsoleSetting.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickException.h">
+      <Filter>Header Files\Invalidation</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandException.h">
+      <Filter>Header Files\Invalidation</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexException.h">
+      <Filter>Header Files\Invalidation</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckInput.h">
+      <Filter>Header Files\Invalidation</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleSetting.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="IO.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckInput.cpp">
+      <Filter>Source Files\Invalidation</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

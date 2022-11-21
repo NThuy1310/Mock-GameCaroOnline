@@ -1,0 +1,3 @@
+﻿  Client.cpp
+C:\Users\nguye\OneDrive\Desktop\C++ FPT\Code_Examples\BT\MockC++\CaroClient\CaroClient\Client.cpp(135,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  CaroClient.vcxproj -> C:\Users\nguye\OneDrive\Desktop\C++ FPT\Code_Examples\BT\MockC++\CaroClient\x64\Debug\CaroClient.exe
