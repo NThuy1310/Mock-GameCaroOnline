@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\nguye\OneDrive\Desktop\C++ FPT\Code_Examples\BT\MockC++\ServerCaro\ServerCaro\main.cpp(4,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  ServerCaro.vcxproj -> C:\Users\nguye\OneDrive\Desktop\C++ FPT\Code_Examples\BT\MockC++\ServerCaro\x64\Debug\ServerCaro.exe
